@@ -1,6 +1,12 @@
 spring:
   application:
     name: ai-code-generator
+    # mysql
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ai_code_generator
+    username: root
+    password: root
 
 server:
   port: 8123
